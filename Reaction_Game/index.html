@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./homecss.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="encap">
+    <div class="head " >
+        <h1 style="font-family: 'Permanent Marker', cursive; font-size: 4rem; letter-spacing: 8px;" >Beat Your Reaction</h1>
+        <h3 style="font-family: 'Indie Flower', cursive; font-size: 2rem; margin: 1rem; " id="head1" >your reaction Time is : <h3  style="font-family: 'Indie Flower', cursive;  letter-spacing: 3px;" id="time"></h3> </h3>
+        <div class="but" style="display: flex; justify-content:space-evenly;">
+
+            <button id="b1" style="width: 10%; height: 2rem; font-weight: bold; border-radius: 10px; "> Start</button>
+            <button id="b3"  style="width: 10%; height: 2rem; font-weight: bold; border-radius: 10px;"> Pause</button>
+            <button id="b2"  style="width: 10%; height: 2rem; font-weight: bold; border-radius: 10px;"> Stop</button>
+
+        </div>
+
+    </div>
+    <div id="body" style="height: 80vh; position: relative;">
+        <div id="wel" style="text-align: center; color: red;line-height: 1.5rem; width: 90%; margin: auto; padding: 5rem;"><h1 style="color: maroon; margin: 10px;"> How To Play</h1> <h3><i> time is calculated when you take yout cursor inside the Random Shapes on your Screen and takes out from it. Thus ,According to the HKM thory , it is the time difference between ,</i><br>
+           <strong>Reaction Time =Mouse Cursor Coming out From the Shape - Mouse Cursor Entering the Shape </strong> 
+        </h3></div>
+   <div id="shape" style=" height: 50%;position: absolute; background-color: maroon;"></div>
+    </div>
+    <div id="thank" style="display: none; margin: 5rem; color: red; line-height: 3rem;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; font-size: 1.5rem;"><h1> Thank You for playing the game</h1> <h3>With Us</h3>
+    </div>
+    <div id="chckavg" style="display: none;" ><button id="avg" style="position: relative; left: 40%; font-weight: bold;height:  3rem;width: 20%;  border-radius: 50px; font-size: 1rem;">Check Your Average Reaction Time</button></div>
+</div>
+<div class="ntallow" ><h1>Open the Site in your Desktop</h1></div>
+    <script src="./homejs.js"></script>
+</body>
+</html>
