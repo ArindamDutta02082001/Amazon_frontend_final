@@ -1,0 +1,107 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 40px;
+
+}
+
+#head
+{
+    /* border: 1px solid red; */
+    /* background-color: black; */
+    background:linear-gradient(620deg, red,blue,black)
+    /* background-image: url(./one.jpg); */
+
+    
+
+}
+
+.area
+{
+    position:sticky;
+    background-color:grey ;
+    height: 100px;
+    top: 0px;
+}
+ol
+{      list-style: none;
+    display: flex;
+flex-direction: column;    
+text-align: center;
+justify-content: space-evenly;
+margin-top: 1rem;
+color: blanchedalmond;
+text-shadow: burlywood 4px 4px 4px;
+}
+
+#list_1
+{
+font-size: 3rem;
+font-family: 'Kaushan Script', cursive;
+font-weight: normal;
+
+}
+
+#list_2
+{
+    font-family: 'Gloria Hallelujah', cursive;
+    font-weight: lighter;
+}
+@media screen and (max-width:460px)
+{
+    *
+    {
+font-size: 20px;
+    }
+}
+
+#mid
+{   
+     /* border: 1px solid red; */
+height: 350px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+textarea
+{  font-size: 20px;
+    /* min-width: 30%; */
+    max-width: 60%;
+    margin-top: .4rem;
+}
+button
+{
+    font-family: 'Kaushan Script', cursive;
+
+cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    /* background-color: green; */
+    background:linear-gradient(170deg,white,green,grey);
+
+    color: honeydew;
+    border: lightslategrey 2px solid;
+    padding: .2rem;
+    margin-top: .6rem;
+border-radius: 1rem ;
+}
+
+button:hover{
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+
+/* #btn:hover
+{
+opacity: 0.6;
+cursor: pointer;
+} */
+
+#last
+{
+    text-align: center;
+    /* border: 2px solid red; height: 1rem; */
+}
