@@ -33,10 +33,12 @@
         <!-- <form action="" method="get" id="frm"> -->
         <textarea  id="write_area" cols="60" rows="5" placeholder="     Write Your Notes ...." style="font-family: 'Kaushan Script', cursive;
         "></textarea>
-        <button id="add_btn" type="button"> Add Notes</button>
 
-        <button id="print_btn" type="button">Print Notes</button>
-        <button id="del_all_btn">Clear</button>
+        <button id="add_btn" onclick="addNewNote()" type="button"> Add Notes</button>
+
+        <button id="print_btn" onclick="printNotes()" type="button">Print Notes</button>
+        <button id="del_all_btn" onclick="deleteAll()">Clear</button>
+
     <!-- </form> -->
     </div>
 <div id="last_main" >
@@ -46,6 +48,8 @@
     <a style="text-decoration:underline;font-size: .5rem;color: blue;" target="_blank" href="https://reactiongamefinal.netlify.app/"> Need Refreshment ? Try a Game</a>
 </div>
 
-    <script src="./notes2.js"></script>
+
+    <script src="./noteJsFile.js"></script>
+
 </body>
 </html>
