@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.head
+{
+/* border:  2px solid red; */
+background-color: black;
+color: blanchedalmond;
+}
+body{
+    display: flex;
+    flex-direction: column;
+
+
+}
+h1,h3{
+    text-align: center;
+}
+
+.but{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.ntallow{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){
+    .encap{
+        display: none;
+    }
+    .ntallow{
+        display: block;
+    }
+  
+  }
+  @media screen and (max-height: 700px) {
+    .encap{
+        display: none;
+    }
+    .ntallow{
+        display: block;
+    }
+  
+}
+
+
+/* #avg{
+    width: 50%;
+    margin-left: auto;
+} */
